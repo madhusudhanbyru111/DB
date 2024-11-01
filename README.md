@@ -1,6 +1,6 @@
 # DB
 
-Team members: Madhusudhan Byru(12611642) and Guru Sai Prasad Sunkara(12..)
+Team members: Madhusudhan Byru(12611642) and Guru Sai Prasad Sunkara(12608151)
 Dataset: The sample data contains attributes like StudenetID, FirstName, Lastname, Course, Professor, ProfessorEmail, CourseStart, CourseEnd. The dataset is taken as .csv file(comma separated values).
 
 Functional Dependencies: The functional dependencies used for the dataset are:
