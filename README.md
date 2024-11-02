@@ -1,4 +1,4 @@
-# DB
+# RDBMS Normalizer
 
 Team members: Madhusudhan Byru(12611642) and Guru Sai Prasad Sunkara(12608151)
 Dataset: The sample data contains attributes like StudenetID, FirstName, Lastname, Course, Professor, ProfessorEmail, CourseStart, CourseEnd. The dataset is taken as .csv file(comma separated values).
@@ -56,3 +56,14 @@ Code Execution and Flow:
 • Following code execution, the console will display the information shown below. • To normalize the provided table, enter the highest normal form by pressing 1 for 1NF, 2 for 2NF, 3 for 3NF, B for BCNF, 4 for 4NF, and 5 for 5NF. • Next, press 1 to obtain the supplied relation's highest normal form, and press 2 if the highest normal form is not needed. The primary key for this relation should be StudentID,Course. Then, insert the values for the primary key, separated by commas. 
 
 • It offers the query of the decomposed tables after decomposing the given table till it satisfies the specified normal form if it is not in the provided normal form. • Otherwise, it returns the original table's query if the supplied table satisfies the given normal form. • The candidate keys for every table in the 5NF are supplied. The candidate key for the student table is StudentID; for the course table, it is Course; and for the professor table, it is Professor. • The highest normal form that the provided table can satisfy is shown at the end. Only 1NF is satisfied by the provided table.
+
+
+Challenges faced:
+1. Implementing Algorithms:
+  The normalization methods required careful attention to detail as they were being coded. A thorough grasp of functional   connections was necessary because each normal form has unique needs and guidelines for spotting infractions. The implementation of checks for different forms, including 1NF, 2NF, and BCNF, required a thorough relational design approach. It was also difficult to make sure the algorithms could correctly decompose relations without introducing redundancy or missing important information. It was essential to test the algorithms on a variety of datasets in order to find potential flaws and edge situations. To make sure the algorithms operated properly in a variety of situations, this process of improvement and debugging was crucial.
+
+2. Data Types and SQL Compatibility
+   Mapping Python data types to SQL data types posed significant challenges throughout the project. Each programming language has its own set of data types, and ensuring compatibility during the generation of SQL queries required a thorough understanding of both systems. The need to convert various Python types—such as integers, floats, strings, and dates—into their appropriate SQL counterparts added complexity. Additionally, considering database constraints like primary keys, foreign keys, and unique constraints made the mapping process more intricate. Thorough testing was necessary to ensure that the generated SQL queries executed correctly without type-related errors or mismatches, highlighting the importance of accuracy in database design.
+
+
+
