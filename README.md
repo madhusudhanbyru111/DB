@@ -29,25 +29,25 @@ SQL Query Generator: It refers to a tool or functionality that helps to generate
 Deliverables: Source Code: Here, we have used the Python programming language to normalize the given dataset.
 Code Description:  
 • The open method is used to open and read the functional dependencies txt file. 
-• The Parser method is used to convert the given input files into the string characters. 
-• bcnf_decomosition function is defined to decompose the relation into BCNF normal form. 
-• in_1nf method is defined to check whether the dataset is in 1NF or not. 
-• in_2nf method is defined to check whether the dataset is in 2NF or not. 
-• in_3nf method is defined to check whether the dataset is in 3NF or not. 
-• in_bcnf method is defined to check whether the dataset is in BCNF or not. 
-• in_4nf method is defined to check whether the dataset is in 4NF or not. 
-• in_5nf method is defined to check whether the dataset is in 5NF or not. 
-• first_normal_form function is defined to decompose the given dataset into the 1NF. 
-• second_normal_form function is defined to decompose the given dataset into the 2NF. 
-• third_normal_form function is defined to decompose the given dataset into the 3NF. 
-• bc_normal_form function is defined to decompose the given dataset into the BCNF. 
-• fourth_normal_form function is defined to decompose the given dataset into 4NF. 
-• decomposing_to_5nf function is defined to check for the lossless decomposition of 5NF. 
-• fifth_normal_form function is defined to decompose the given dataset into 5NF. 
-• output function is defined to generate the user required output results. 
-• sql_query_1NF function is defined to print the 1NF sql query as an output. 
-• sql_query_2_3 function is defined to print the 2NF, 3NF sql queries as output. 
-• sql_query_BCNF_4_5 function is defined to print the BCNF, 4NF, 5NF sql queries as output. 
+• The parserFile method is used to convert the given input files into the string characters. 
+• bcnfDecomposition function is defined to decompose the relation into BCNF normal form. 
+• check1NF method is defined to check whether the dataset is in 1NF or not. 
+• check2NF method is defined to check whether the dataset is in 2NF or not. 
+• check3NF method is defined to check whether the dataset is in 3NF or not. 
+• checkBCNF method is defined to check whether the dataset is in BCNF or not. 
+• check4NF method is defined to check whether the dataset is in 4NF or not. 
+• check5NF method is defined to check whether the dataset is in 5NF or not. 
+• normalizeTo1NF function is defined to decompose the given dataset into the 1NF. 
+• normalizeTo2NF function is defined to decompose the given dataset into the 2NF. 
+• normalizeTo3NF function is defined to decompose the given dataset into the 3NF. 
+• normalizeToBCNF function is defined to decompose the given dataset into the BCNF. 
+• normalizeTo4NF function is defined to decompose the given dataset into 4NF. 
+• checkLosslessFor5NF function is defined to check for the lossless decomposition of 5NF. 
+• normalizeTo5NF function is defined to decompose the given dataset into 5NF. 
+• outputTypeMethod function is defined to generate the user required output results. 
+• get1NF(primary_keys, df) function is defined to print the 1NF sql query as an output. 
+• sql_query(twonf_tables) and sql_query(threenf_tables) calls are used to print the 2NF, 3NF sql queries as output. 
+• sql_query(bcnf_tables), sql_query(fournf_tables), and sql_query(fivenf_tables) function is defined to print the BCNF, 4NF, 5NF sql queries as output. 
 • Checking for the normal form of the given dataset whether it is in any type of normal form or not. 
 • The highest normal form of the given dataset can be found by using the functions in_1nf, in_2nf, in_3nf, in_4nf, in_bcnf and in_5nf from the variable high_normalform.
 
